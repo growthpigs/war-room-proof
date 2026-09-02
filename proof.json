@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-02T12:58:57.831Z",
+  "repo": "growthpigs/alpha-war-room",
+  "repo_private": true,
+  "method": "gh api search/issues (authenticated); tree counts from git ls-tree on origin/main",
+  "first_merged_pr": "2025-10-12T11:13:10Z",
+  "counts": {
+    "merged_prs_total": {
+      "value": 7427,
+      "query": "repo:growthpigs/alpha-war-room is:pr is:merged"
+    },
+    "merged_prs_30d": {
+      "value": 2478,
+      "query": "repo:growthpigs/alpha-war-room is:pr is:merged merged:>=2026-08-03"
+    },
+    "merged_prs_7d": {
+      "value": 517,
+      "query": "repo:growthpigs/alpha-war-room is:pr is:merged merged:>=2026-08-26"
+    },
+    "issues_closed_total": {
+      "value": 1997,
+      "query": "repo:growthpigs/alpha-war-room is:issue is:closed"
+    },
+    "issues_open": {
+      "value": 1941,
+      "query": "repo:growthpigs/alpha-war-room is:issue is:open"
+    }
+  },
+  "tree": {
+    "commits_main": 4028,
+    "commits_30d": 2392,
+    "test_files": 2054,
+    "source_files_ts": 3757,
+    "migrations": 234,
+    "workflow_files": 73,
+    "head": "33c00302f"
+  },
+  "contributors": [
+    {
+      "login": "growthpigs",
+      "contributions": 9079
+    },
+    {
+      "login": "claude",
+      "contributions": 1362
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 40
+    },
+    {
+      "login": "cursoragent",
+      "contributions": 29
+    },
+    {
+      "login": "cursor[bot]",
+      "contributions": 11
+    }
+  ],
+  "workflows": 76,
+  "languages": {
+    "TypeScript": 39691731,
+    "HTML": 4748928,
+    "JavaScript": 1326018,
+    "CSS": 946397,
+    "Shell": 516579,
+    "Python": 386896,
+    "PLpgSQL": 99002
+  }
+}
