@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T12:58:57.831Z",
+  "generated_at": "2026-09-02T13:08:05.550Z",
   "repo": "growthpigs/alpha-war-room",
   "repo_private": true,
   "method": "gh api search/issues (authenticated); tree counts from git ls-tree on origin/main",
@@ -22,7 +22,7 @@
       "query": "repo:growthpigs/alpha-war-room is:issue is:closed"
     },
     "issues_open": {
-      "value": 1941,
+      "value": 1942,
       "query": "repo:growthpigs/alpha-war-room is:issue is:open"
     }
   },
