@@ -4,12 +4,12 @@ Daily snapshot of the private repository behind [app.thewarroom.ai](https://app.
 
 The repository is private because it is a client's product. This one is public so the numbers can be checked: every commit here is timestamped by GitHub, and `history/` keeps one file per day.
 
-| As of 2026-09-10 | |
+| As of 2026-09-11 | |
 |---|---|
-| Merged pull requests since 2025-10-12 | **7795** |
-| Merged in the last 30 days | **1924** |
-| Test files on `main` | **2206** |
-| Database migrations | **257** |
+| Merged pull requests since 2025-10-12 | **7821** |
+| Merged in the last 30 days | **1889** |
+| Test files on `main` | **2217** |
+| Database migrations | **260** |
 
 How it is produced: [`proof-snapshot.mjs`](https://github.com/growthpigs/personal-brand/blob/main/site/scripts/proof-snapshot.mjs) runs `gh api search/issues` against the repository and `git ls-tree` on its `main` branch, then writes `proof.json`. The query strings ship inside the JSON. Nothing is typed by hand.
 
